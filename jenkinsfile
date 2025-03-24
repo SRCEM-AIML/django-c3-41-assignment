@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/SRCEM-AIML/C04_Atharva-Tembhurnikar_Assignment-2.git'
+                git branch: 'main', url: 'https://github.com/SRCEM-AIML/django-c3-41-assignment.git'
             }
         }
 
